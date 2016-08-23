@@ -1,24 +1,14 @@
-# README
+# Wintergreen
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[**Wintergreen**][wintergreen] is a bot that integrates CI services such as
+Travis CI or Jenkins with source control systems like GitHub and Bitbucket.
+Wintergreen makes sure your build never breaks by ensuring every change is
+tested completely before merge.
 
-Things you may want to cover:
+Visit <https://www.wintergreen.io> to sign up or for more information.
 
-* Ruby version
+## License
 
-* System dependencies
+MIT.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[wintergreen]: https://www.wintergreen.io
