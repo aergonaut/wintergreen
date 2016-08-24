@@ -9,6 +9,7 @@ Visit <https://www.wintergreen.io> to sign up or for more information.
 
 ## License
 
-MIT.
+Wintergreen is &copy; 2016 by Chris Fung. It is open source software distributed
+under the terms specified in the [LICENSE](LICENSE.md).
 
 [wintergreen]: https://www.wintergreen.io
