@@ -1,0 +1,76 @@
+.ma5.pa4.mw9-ns.center
+  %h1.f1.tc
+    Stop seeing
+    %span.dark-red red
+
+  %p.tc.measure.center.f3.lh-copy
+    %strong Wintergreen
+    integrates your favorite CI service with your Pull Requests to make sure your master branch always stays
+    %span.dark-green green.
+
+  .measure.center.f3.tc.mt5
+    = link_to "#", class: "link f3 f4-ns f6-m small-caps ph4 pv3 br2 dib bg-purple white grow" do
+      %i.fa.fa-github
+      &nbsp;
+      Sign in with GitHub
+
+.bg-purple.mt5
+  .ma5.pa4.mw9-ns.center.near-white
+    %h2.f2.tc How it works
+
+    %ol.list.measure.center.mw6-ns.f6.f4-ns.pa0.mv5
+      %li.bt.bl.br.b--light-gray.br2.br--top.pa3
+        %i.fa.fa-code-fork
+        &nbsp;
+        Contributors open Pull Requests like normal
+      %li.ba.b--light-gray.pa3
+        %i.fa.fa-check-circle-o
+        &nbsp;
+        Reviewers approve
+      %li.ba.b--light-gray.pa3
+        %i.fa.fa-cogs
+        &nbsp;
+        Wintergreen runs your CI
+      %li.bb.bl.br.b--light-gray.br2.br--bottom.pa3
+        %i.fa.fa-compress
+        &nbsp;
+        Wintergreen merges once your CI passes
+
+    %p.f5.measure.mw6-ns.center.mv5.lh-copy
+      By running your CI suite right before merging, Wintergreen ensures that each PR is tested in the full context of its merge target. No more broken builds because a different PR interferes with yours.
+
+.ma5.pa4.mw9-ns.center
+  %h2.f2.tc Pricing
+
+  %ul.list.pa0.mv5.tc
+    %li.dib.w-100.w-25-ns.ba.br2.b--light-silver.pa4.tc.center.mr4-ns.mb4.mb0-ns
+      .b Open Source
+      .gray
+        .w-100.bt.b--light-silver.mt4.pt4
+          Unlimited builds
+        .w-100.mt4
+          Unlimited Pull Requests
+        .w-100.mt4
+          Unlimited public repositories
+      .f1.mt4
+        $0
+        %span.f6 / mo.
+
+    %li.dib.w-100.w-25-ns.ba.br2.b--light-silver.pa4.tc.center
+      .b Private Repo
+      .gray
+        .w-100.bt.b--light-silver.mt4.pt4
+          Unlimited builds
+        .w-100.mt4
+          Unlimited Pull Requests
+        .w-100.mt4
+          Unlimited private repositories
+      .f1.mt4
+        $12
+        %span.f6 / mo.
+
+  .measure.center.tc.mt4
+    = link_to "#", class: "link f3 f4-ns f6-m small-caps ph4 pv3 br2 dib bg-purple white grow" do
+      %i.fa.fa-github
+      &nbsp;
+      Sign up with GitHub
