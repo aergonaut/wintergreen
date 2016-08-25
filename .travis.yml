@@ -3,6 +3,8 @@ sudo: false
 cache: bundler
 rvm:
   - 2.3.1
+addons:
+  postgresql: "9.4"
 before_script:
   - "bin/rake db:create db:test:prepare"
 script: "bin/rake spec"
