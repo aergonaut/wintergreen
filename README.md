@@ -1,5 +1,7 @@
 # Wintergreen
 
+[![Build Status](https://travis-ci.org/aergonaut/wintergreen.svg?branch=master)](https://travis-ci.org/aergonaut/wintergreen)
+
 [**Wintergreen**][wintergreen] is a bot that integrates CI services such as
 Travis CI or Jenkins with source control systems like GitHub and Bitbucket.
 Wintergreen makes sure your build never breaks by ensuring every change is
