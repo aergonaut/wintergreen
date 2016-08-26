@@ -8,6 +8,10 @@ addons:
 before_script:
   - "bin/rake db:create db:test:prepare"
 script: "bin/rake spec"
+env:
+  global:
+    - GITHUB_CLIENT_ID=abcd
+    - GITHUB_CLIENT_SECRET=1234
 branches:
   only:
     - master
